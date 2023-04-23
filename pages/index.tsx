@@ -56,7 +56,7 @@ const StakingMutant: NextPage = () => {
                 contract.call("approve", [address, amount])
               }}
             >
-              Claim Rewards
+              Start Earning
             </Web3Button>
 
 
