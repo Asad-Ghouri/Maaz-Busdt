@@ -48,21 +48,21 @@ export const Header = () => {
               >
                 <li className="ant-menu-item" tabIndex={-1}>
                   <span className="ant-menu-title-content">
-                    <a className="active" href="https://shera-market-nft.com/">
+                    <a className="active" href="#">
                       <div>Home</div>
                     </a>
                   </span>
                 </li>
                 <li className="ant-menu-item" tabIndex={-1}>
                   <span className="ant-menu-title-content">
-                    <a className href="https://shera-market-nft.com/discover">
+                    <a className href="#">
                       <div>Discover</div>
                     </a>
                   </span>
                 </li>
                 <li className="ant-menu-item" tabIndex={-1}>
                   <span className="ant-menu-title-content">
-                    <a className href="https://shera-minting.vercel.app/">
+                    <a className href="#">
                       <div>Mint</div>
                     </a>
                   </span>
@@ -78,7 +78,7 @@ export const Header = () => {
                 </li> */}
                 <li className="ant-menu-item" tabIndex={-1}>
                   <span className="ant-menu-title-content">
-                    <a className href="https://shera-market-nft.com/activity">
+                    <a className href="#">
                       <div>Activity</div>
                     </a>
                   </span>

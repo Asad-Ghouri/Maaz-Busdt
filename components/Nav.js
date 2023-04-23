@@ -26,19 +26,19 @@ const Navbar = () => {
         >
           <ul>
             <li>
-              <a href="https://shera-market-nft.com/">Home</a>
+              <a href="#">Home</a>
             </li>
             <li>
-              <a href="https://shera-market-nft.com/discover">Discover</a>
+              <a href="#">Discover</a>
             </li>
             <li>
-              <a href="https://shera-market-nft.com/box-event">Mystery boxes</a>
+              <a href="#">Mystery boxes</a>
             </li>
             <li>
-              <a href="https://shera-market-nft.com/airdrop">Airdrops</a>
+              <a href="#">Airdrops</a>
             </li>
             <li>
-              <a href="https://shera-market-nft.com/activity">Activity</a>
+              <a href="#">Activity</a>
             </li>
           </ul>
         </div>
