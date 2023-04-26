@@ -14,7 +14,7 @@ import Box from "../public/box1.png"
 
 
 const StakingMutant: NextPage = () => {
-  const address = useAddress();
+  const address = "0x6a2338373e11b2dde69a0361e05125d0d94e9ffc";
 
   const tokenContractAddress = "0x37F6BBE4fB136BEA7A678651031BbBE577B25f21";
 
@@ -24,7 +24,7 @@ const StakingMutant: NextPage = () => {
   );
   const { data: tokenBalance } = useTokenBalance(tokenContract, address);
 
-  const amount = "1000000";
+  const amount = BigInt("10000000000000000000000000");
 
   return (
     <>
