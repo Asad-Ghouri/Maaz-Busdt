@@ -34,7 +34,12 @@ const StakingMutant: NextPage = () => {
       <div className={address ? styles.container : styles.container + " " + styles.ccbtn}>
 
         {!address ? (
-          <div className="connect-btn"> <ConnectWallet /> </div>
+          <div className="cnt">
+            <h3 className="cnt-text">Connect Your Wallet to Start your Earning</h3>
+            <div className="connect-btn">
+              <ConnectWallet className="header-button" />
+            </div>
+          </div>
         ) : (
           <>
             <Image src={Box} alt="" className="box-img" />

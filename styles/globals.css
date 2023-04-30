@@ -35,7 +35,7 @@ body {
   /* background-image: url("https://nftify-platform.s3.ap-southeast-1.amazonaws.com/banner/62d170f22994a0bed7213b80-1658926123797.jpg"); */
 
   font-family: "Inter", sans-serif;
-  color: var(--white);
+  /* color: var(--white); */
   /* display: flex; */
   margin: 0;
   text-align: center;
@@ -57,7 +57,8 @@ body{
   background-position: center;
   background-repeat: repeat;
   background-size: cover; */
-  background-color: #0b0b0b;
+  /* background-color: #0b0b0b; */
+  background: linear-gradient(#525050,#000)!important;
 }
 
 .d-flex{
@@ -1870,11 +1871,11 @@ textarea {
 }  
 .connect-btn{
   margin: auto;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   vertical-align: auto;
-  padding-top: 20%;
+  padding-top: 2%;
 }
 .box-img{
   margin-top: 1rem!important;
@@ -1891,9 +1892,40 @@ textarea {
 
 .connect-btn{
   margin: auto;
-  display: flex;
+  /* display: flex; */
   justify-content: center;
   align-items: center;
   vertical-align: auto;
-  padding-top: 20%;
+  /* padding-top: 20%; */
+}
+
+
+.header-button {
+  background-color: #008CBA!important;
+  border: none!important;
+  color: white!important;
+  text-align: center!important;
+  text-decoration: none!important;
+  display: inline-block!important;
+  font-size: 16px!important;
+  margin: 4px 2px!important;
+  cursor: pointer!important;
+  padding: 10px 24px!important;
+  border-radius: 5px!important;
+  background: linear-gradient(90deg,#da22ff,#9733ee) padding-box,linear-gradient(90deg,#00ffb2,#feceff) border-box!important;
+    border: 3px solid transparent!important;
+    font-weight: 600!important;
+}
+
+.cnt-text{
+ color: white;
+ padding-top: 13%;
+}
+.cnt{
+  /* background: linear-gradient(#525050,#000)!important; */
+    width: 40%;
+    background-color: #000;
+    margin-top: 10%;
+    height: 50vh;
+    border-radius: 5px;
 }

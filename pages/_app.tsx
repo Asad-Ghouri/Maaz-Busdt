@@ -18,7 +18,7 @@ function MyApp({ Component, pageProps }: AppProps) {
   return (
     <ThirdwebProvider activeChain="mumbai" >
       {/* <Head> */}
-      <Header />
+      {/* <Header /> */}
       {/* </Head> */}
       <Component {...pageProps} />
       {/* <ThirdwebGuideFooter /> */}
