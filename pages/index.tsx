@@ -49,7 +49,7 @@ const StakingMutant: NextPage = () => {
                 <h3 className={styles.tokenLabel}>Current Balance</h3>
                 <p className={styles.tokenValue}>
                   {/* <b>{tokenBalance?.displayValue.substring(0, 4)}</b> {tokenBalance?.symbol} */}
-                  <b>{tokenBalance?.displayValue.substring(0, 4)}</b> USDT
+                  <b>{tokenBalance?.displayValue.substring(0, 4)}</b> <b> USDT </b>
                 </p>
               </div>
             </div>
