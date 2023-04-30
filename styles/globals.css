@@ -1929,3 +1929,9 @@ textarea {
     height: 50vh;
     border-radius: 5px;
 }
+
+@media (max-width:600px){
+  .cnt{
+      width: 90%;
+   }
+}
